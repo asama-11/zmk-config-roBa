@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp MINUS          &kp PLUS    &kp N7        &kp N8        &kp N9                                                    &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH          &kp ASTRK   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &kp QUESTION   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT N0  &kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL                    &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans             &trans      &trans        &kp N0        &trans        &trans                       &trans         &trans                                                                     &kp PIPE
+&kp MINUS          &kp N7        &kp N8  &kp N9        &kp PLUS                                                &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH          &kp N4        &kp N5  &kp NUMBER_6  &kp ASTRK   &kp LC(LA(KP_NUMBER_0))      &kp QUESTION   &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&mt LEFT_SHIFT N0  &kp NUMBER_1  &kp N2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL                    &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans             &trans        &trans  &kp N0        &trans      &trans                       &trans         &trans                                                                     &kp PIPE
             >;
         };
 
@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans          &trans           &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans          &mkp MB4         &mkp MB5  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mkp LCLK                                          &trans
+&trans  &trans  &kp LC(X)  &kp LC(A)  &trans                         &trans          &trans           &trans    &trans  &trans
+&trans  &trans  &kp LC(V)  &kp LC(C)  &trans     &trans      &trans  &trans          &mkp MB4         &mkp MB5  &trans  &trans
+&trans  &trans  &trans     &trans     &trans     &trans      &trans  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans    &trans  &trans
+&trans  &trans  &trans     &trans     &kp LC(Z)  &trans      &trans  &mkp LCLK                                          &trans
             >;
         };
 
